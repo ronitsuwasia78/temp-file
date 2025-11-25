@@ -53,7 +53,7 @@ ans = chatgpt.predict(final_value)[0]
 
 progress_bar = st.progress(0)
 placeholder = st.empty()
-placeholder.subheader('Predicting Heart Disease')
+placeholder.subheader('Predicting Heart Disease(thus the persons heart is healthy)')
 
 place = st.empty()
 place.image('https://media1.tenor.com/m/LLlSFiqwJGMAAAAC/beating-heart-gif.gif', width=200)
